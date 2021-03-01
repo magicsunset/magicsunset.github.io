@@ -1,0 +1,283 @@
+/* 
+
+Author: Carina E
+Author URL: http://www.breedertemplates.com
+
+font-family: 'Muli', sans-serif;
+font-family: 'Oleo Script', cursive;
+
+*/
+ 
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script:400,700|Muli:400,400italic);
+
+body {
+	background: #587796;
+	font-family: 'Muli', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* Text */
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #587796;
+}
+
+a:hover, a:active {
+	color: #85a4c3;
+}
+
+#header a {
+	color: #85a4c3;
+}
+
+h1 {
+	font-family: 'Oleo Script', cursive;
+	font-size: 56px;
+	font-weight: bold;
+	color: #85a4c3;
+	text-shadow: 2px 2px 2px rgba(48,65,81,.6);
+}
+
+h2 {
+	color: #7997b5;
+}
+
+h2.tag {
+	font-size: 30px;
+	font-style: italic;
+	margin: 0 0 0 30px;
+}
+
+#main h2 {
+	font-family: 'Oleo Script', cursive;
+	font-size: 36px;
+	padding: 50px 0 25px 0;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 25px 0;
+	text-align: center;
+}
+
+h4 {
+	font-size: 16px;
+	margin: 25px 0;
+	text-align: center;
+}
+
+h5 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+p.feature {
+	width: 78%;
+	font-family: 'Oleo Script', cursive;
+	font-size: 20px;
+	line-height: 26px;
+	margin: 40px auto 25px auto;
+	text-align: left;
+}
+
+#main p {
+	padding: 0 25px;
+}
+
+#footer p {
+	margin-bottom: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.sale p, p.caption, #links #main p, #contact #main p {
+	text-align: center;
+}
+
+.figure p {
+	margin-bottom: 0;
+}
+
+/* Images */
+
+img {
+	display: block;
+	margin: 25px auto;
+	border: 1px solid #000;
+}
+
+imagem{
+	display: block; 
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+	border: none
+}
+
+#index img {
+	margin: 0;
+	border-left: none;
+	border-right: none;
+}
+
+#ps table img {
+	margin: 10px 0 0 0;
+}
+
+#links #main img {
+	border: none;
+}
+
+/* Layout */
+
+#header {
+	width: 900px;
+	margin: 50px auto;
+	text-align: left;
+}
+
+#container {
+	width: 900px;
+	margin: 25px auto;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+/* Main navigation */
+
+#mainnav {
+	background: #eff5f9;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+	border-bottom: 1px solid #85a4c3;
+}
+
+#index #mainnav {
+	border: none;
+}
+
+#mainnav a {
+	font-family: 'Oleo Script', cursive;
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+}
+
+#mainnav li {
+	display: inline;
+	padding: 0 20px;
+}
+
+#content {
+	margin: 0;
+}
+
+#footer {
+	background: #eff5f9;
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #85a4c3;
+}
+
+/* Cats */
+
+.cat {
+	margin-bottom: 50px;
+}
+
+.cat:last-child {
+	margin-bottom: 0;
+}
+
+.catnav {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.catnav a {
+	font-size: 16px;
+}
+
+.catnav li {
+	display: inline;
+	padding: 0 10px;
+}
+
+.cat table {
+	width: 95%;
+	margin: 0 auto 25px auto;
+}
+
+.cat td {
+	text-align: center;
+	padding: 2px 0;
+}
+
+.cat .data {
+	font-weight: bold;
+}
+
+	/* ---------- Pedigrees and Shows ---------- */
+	
+	#ps table {
+		width: 95%;
+		font-size: small;
+		line-height: 20px;
+		margin: 25px auto 50px auto;
+		border: 1px solid #d7e6ef;
+	}
+	
+	#ps td {
+		width: 25%;
+		text-align: left;
+		padding: 5px;
+		border: 1px solid #d7e6ef;
+		vertical-align: top;
+	}
+	
+	#ps .data {
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	#ps .year {
+		padding: 10px;
+		text-align: center;
+	}
+
+	#ps .udata {
+		font-weight: bold;
+	}
+	
+/* Kittens and litters */
+
+.sale, .litter {
+	text-align: center;
+}
+
+/* Links and Contact*/
+
+#links #content {
+	text-align: center;
+}
+
+#contact #content {
+	text-align: center;
+}
